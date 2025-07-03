@@ -1,17 +1,45 @@
 body {
 
-background-color: rgb(83, 83, 83);
-color: aliceblue;
+background-color: rgb(46, 46, 46);
+color: rgb(255, 255, 255);
 align-items: center;
+h1{padding: 50px;}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 
 }
 
 .vecna {
 
 background-color: rgb(0, 0, 97);
-text-align: center;
 height: 400px;
-width: 300px;
+width: 225px;
+
+border-radius: 10px;
+
 }
 
 .partedotopo{
@@ -28,6 +56,95 @@ width: 300px;
     
     width: 100%;
     
+    height: 70px;
+    
+
+top: 0;
+}
+
+.figures {
+
+
+height: 420px;    
+    align-items: center;
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: rgb(75, 64, 89);
+    
+    img{
+    
+        border-radius: 10px;
+    
+    }
+}
+
+.leon{
+
+
+
+
+    background-color: rgb(0, 0, 97);
+    height: 400px;
+    width: 225px;
+    border-radius: 10px;
+
+
+}
+
+.banner img{
+    width: 100%;
+top:0;
+width: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: cover; 
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+left:0;
+}
+
+.komi{
+
+
+
+
+    background-color: rgb(0, 0, 97);
+    height: 400px;
+    width: 225px;
+border-radius: 10px;
+
+}
+
+.alice{
+
+
+
+
+    background-color: rgb(0, 0, 97);
+    height: 400px;
+    width: 225px;
+border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     height: 70px;
     
     
