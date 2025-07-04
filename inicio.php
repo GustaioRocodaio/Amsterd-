@@ -77,6 +77,22 @@
 
 
 
+<footer>
+        <div class="footer-content">
+            <div class="footer-links">
+
+            <a href="inicio.php">Home</a>
+                <a href="sobre.php">Sobre</a>
+                <a href="#">Contato</a>
+            </div>
+            <div class="copyright">
+                © 2023 Masmorra do Geek. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+
+
 
 
 
