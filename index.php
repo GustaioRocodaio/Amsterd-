@@ -68,7 +68,18 @@ if(!isset($_SESSION['usuario'])) {
 
     <h1>Bem-vindo, <?php echo $_SESSION['usuario']; ?>!</h1>
 
-    
+    <!-- Inicio do formulario -->
+<form method="POST" action="">
+
+<label>Usuário: </label>
+<input type="text" name="usuario" placeholder="digite o usuário" required><br><br>
+
+<label>Senha: </label>
+<input type="password" name="senha_usuario" placeholder="digite a senha" required><br><br>
+
+<input type="submit" name="Sendlogin" value="Acessar">
+</form>
+<!-- fim do formulario -->
 
     <a href="logout.php">Sair</a>
 </body>
